@@ -9,5 +9,7 @@ namespace apiPhone.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<apiPhone.Models.Phone> Phones { get; set; }
     }
 }
